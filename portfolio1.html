@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <link rel="stylesheet" href="portfolio1.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,400;0,500;0,700;1,900&family=Roboto:wght@100&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section class="banner" id="sec">
+        <header>
+            <a href="#" class="logo">LOGO</a>
+            <div id="toggle" onclick="toggle()"></div>
+        </header>
+        <div class="content">
+            <h2>HELLO THERE! I AM<br><span>SOUJANYA H S</span></h2>
+            <p></p>
+            <a href="#">Know More</a>
+            <a class="resume" href="file:///C:/Users/Sharamya/Downloads/Resume.pdf">Resume</a>
+            <lottie-player class="anim" src="https://assets9.lottiefiles.com/packages/lf20_n8ll1lbc.json"  
+            background="transparent"  speed="1"  style="width: 350px; height: 350px;"  loop  autoplay></lottie-player>
+        </div>
+       
+    </section>
+    <div id="navigations">
+        <ul class="nav">
+            <li><a href="portfolio1.html">HOME</a></li>
+            <li><a href="about.html">ABOUT</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+            <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="facebook.png"></a></li>
+            <li><a href="#"><img src="twitter.png"></a></li>
+            <li><a href="#"><img src="linkedin.png"></a></li>
+        </ul>
+    </div>
+    <script>
+        function toggle() {
+            var sec = document.getElementById('sec');
+            sec.classList.toggle('active');
+        }
+    </script>
+   
+   
+    
+</body>
+</html>
